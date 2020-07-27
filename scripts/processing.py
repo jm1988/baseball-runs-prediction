@@ -22,43 +22,35 @@ for t in teams:
     html = requests.get(url).content
     soup =  BeautifulSoup(html, 'html5lib')
     try:
-        roster = soup.find(attrs={'id':'all_the40man'}).find(text=is_comment)
-        man40 = pd.read_html(str(BeautifulSoup(roster, features="lxml").find(attrs={'id':'the40man'})))[0]
+        appe = soup.find(attrs={'id':'all_appearances'}).find(text=is_comment)
+        roster = pd.read_html(str(BeautifulSoup(appe, features="lxml").find(attrs={'id':'appearances'})))[0]
     except:
         continue
     #rosters = pd.read_html(str(BeautifulSoup(roster).find(attrs={'id':'the40man'})))[0]
-    dfs.append(man40)
-rosters = pd.concat(dfs)
+    dfs.append(roster)
 
-#removing duplicate headers
-rosters = rosters.drop(rosters[rosters['Rk'] == 'Rk'].index)
+roster = pd.concat(dfs)
 
-#Fixing missing column names, accordin to the website the 4th column correspond to the player country and the 5th supposed to be his role but is not very clear
-#Chaging the names to be more clear
-rosters.columns = ['Rk', 'number', 'name', 'country', 'role', 'active', 'injured', 'age',
-                 'batting_side', 'throwing_hand', 'height', 'weight', 'birt_date', 'first_year']
 
-#Removing Rk (rank) role columns
-rosters.drop(['Rk','role'], axis=1, inplace=True)
+#---------------------------------------------------------------------------
+roster = roster.drop(roster[roster['Age'] == 'Age'].index)
 
-#Removing the duplicate label on the country column
-rosters['country'] = rosters['country'].str.split(expand=True)[1]
+#Renaming the columns
+newColsNames = {'Name':'name', 'Age':'age','Unnamed: 2':'country','B':'batting_side','T':'throwing_hand','Ht':'height',
+                'Wt':'weight', 'DoB':'date_of_birth','Yrs':'years','Salary':'salary', 'Batting':'batting'}
+roster.rename(newColsNames, axis=1, inplace=True)
+roster = roster[['name', 'age', 'country', 'batting_side', 'height', 'weight', 'years', 'batting','salary']]
 
-#Converting active and injured into binary classification 1 is injured, or active while 0 is not for any of them.
-rosters['active'] = np.where(rosters['active'].isna(),0,1)
-rosters['injured'] = np.where(rosters['injured'].isna(),0,1)
+#Country is duplicated on the same column. Getting only one instance.
+roster['country'] = roster['country'].str.split(expand=True)[1]
 
-#Formmating the height. Height will be expressed in inches.
-rosters['height'] = rosters['height'].str.split(expand=True)[0].str.replace("'",'').astype(int) * 12 + rosters['height'].str.split(expand=True)[1].str.replace('"','').astype(int)
-
-# Converting weight to numeric
-rosters['weight'] = pd.to_numeric(rosters['weight'])
-
-# Convertin birth_date to date time format
-rosters['birt_date'] = pd.to_datetime(rosters['birt_date'])
-
+#Converting height into total inches.
+roster['height'] = roster['height'].str.split(expand=True)[0].str.replace("'",'').astype(int) * 12 + roster['height'].str.split(expand=True)[1].str.replace('"','').astype(int)
+roster['weight'] = pd.to_numeric(roster['weight'])
+roster['salary'] = roster['salary'].str.replace('$','').str.replace(',','').astype(float)
 # There are some duplicated rows, I removed them:
-rosters.drop_duplicates(inplace=True)
+roster.drop_duplicates(inplace=True)
+
 
 #Getting batting statistics
 dfs = []
@@ -82,9 +74,9 @@ batting = batting.drop(batting[batting['Rk'].isna()].index)
 batting.drop_duplicates(inplace=True)
 
 #Joing both tables on names
-df =  pd.merge(left=batting, right=rosters, how='inner', left_on='Name', right_on='name')
+df =  pd.merge(left=batting, right=roster, how='inner', left_on='Name', right_on='name')
 
-df = df[['age', 'batting_side', 'height', 'weight', 'first_year','G', 'PA', 'R', 'SB', 'SO', 'country', 'OPS']]
+df = df[['age', 'country','batting_side', 'height', 'weight', 'year','salary','batting','G', 'PA', 'R', 'SB', 'SO', 'OPS']]
 
 #Remove records with missing OPS
 df.dropna(axis=0, inplace=True)
@@ -110,7 +102,7 @@ df.columns = ['age', 'batting_side', 'height', 'weight', 'first_year',
 from sklearn.model_selection import train_test_split
 y = df[['OPS']]
 X = df.drop('OPS', axis=1)
-X_train, X_test, y_train, y_test = train_test_split(X, y, test_size=0.35, random_state=28)
+X_train, X_test, y_train, y_test = train_test_split(X, y, test_size=0.4, random_state=52)
 train = pd.concat([X_train,y_train], axis=1)
 test = pd.concat([X_test,y_test], axis=1)
 
