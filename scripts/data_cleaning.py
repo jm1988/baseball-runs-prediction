@@ -9,11 +9,14 @@ roster = pd.read_csv('../data/roster_raw.csv')
 #Remove repeating headers:
 roster = roster.drop(roster[roster['Age'] == 'Age'].index)
 
+#Removing unwanted columns
+roster.drop(['G','DoB','Batting', 'Defense','P','C','1B','2B','3B','SS','LF','CF','RF','OF',
+            'DH','PH','PR','WAR','Unnamed: 28'], axis=1, inplace=True)
+
 #Renaming the columns
-newColsNames = {'Name':'name', 'Age':'age','Unnamed: 2':'country','B':'batting_side','T':'throwing_hand','Ht':'height',
-                'Wt':'weight', 'DoB':'date_of_birth','Yrs':'years','Salary':'salary', 'Batting':'batting'}
+newColsNames = {'Name':'name', 'Age':'age','Unnamed: 2':'country','GS':'games_started','B':'batting_side','T':'throwing_hand','Ht':'height',
+                'Wt':'weight', 'Yrs':'years','Salary':'salary', 'Batting':'batting'}
 roster.rename(newColsNames, axis=1, inplace=True)
-roster = roster[['name', 'age', 'country', 'batting_side', 'height', 'weight', 'years', 'batting','salary']]
 
 #Country is duplicated on the same column. Getting only one instance.
 roster['country'] = roster['country'].str.split(expand=True)[1]
@@ -34,30 +37,49 @@ batting = batting.drop(batting[batting['Rk'].isna()].index)
 #Remove duplicated rows
 batting.drop_duplicates(inplace=True)
 
-#Using an inner join on names to merge both tables
-df =  pd.merge(left=batting, right=roster, how='inner', left_on='Name', right_on='name')
 
-df = df[['age', 'country','batting_side', 'height', 'weight', 'years','salary','batting','G', 'PA', 'R', 'SB', 'SO', 'OPS']]
+
+batting.drop(['Rk','Age','BA','OBP','SLG','OPS','OPS+','TB','GDP',], axis=1, inplace=True)
+
+
+new_col_names = {'Pos':'position', 'Name':'name', 'G':'games_played',
+                'PA':'plate_appearances', 'AB':'at_bat', 'R':'runs',
+                'H':'hits', '2B':'doubles', '3B':'triples', 'HR':'home_runs',
+                'RBI':'runs_batted_in', 'SB':'stolen_bases', 'CS':'caught_stealing',
+                 'BB':'bases_on_balls', 'SO':'strikeouts', 'HBP':'hit_by_pitch',
+                 'SH':'sacrafice_hits', 'SF':'sacrafice_flies', 'IBB':'intentional_bases_on_balls'}
+
+batting.rename(new_col_names, axis=1, inplace=True)
+
+
+#Replacing positions by their full name.
+pos={"C":"Catcher", "1B":"First Base", "2B":"Second Base", "3B":"Third Base", "SS":"Short Stop",
+        "LF":"Left Field", "CF":"Center Field", "RF":"Right Field","DH":"Designated Hitter",
+        "SP":"Starting Pitcher","RP":"Relief Pitcher",}
+
+batting['position'] = batting['position'].map(pos)
+
+
+
+#Using a left join on names to merge both tables. This is because the label (runs) is on the batting data set (left table in the join)
+df =  pd.merge(left=roster, right=batting, how='inner', left_on='name', right_on='name')
+
 
 #Remove records with missing OPS (the variable of interest)
 df.dropna(axis=0, inplace=True)
-#Convert numerical values into integers
-# def change_num_type(dtf):    
-#     for c in list(dtf.columns):
-#         try:
-#             dtf[c] = dtf[c].astype(int)
-#         except:
-#             pass
-# change_num_type(df)
 
-#Converting OPS to decimal
-# df['OPS'] = df['OPS'].astype(float)
+#replace 1st with one 1 in experience years
+df['years'] = df['years'].str.replace('1st','1')
 
+#Change the name of countries to the full name.
+cc = pd.read_csv('../data/countries_codes.csv')
+cc = cc.set_index('code').to_dict()['country']
+df['country'] = df['country'].map(cc)
 
 #Splitting the dataset into train and test sets.
 from sklearn.model_selection import train_test_split
-y = df[['OPS']]
-X = df.drop('OPS', axis=1)
+y = df[['salary']]
+X = df.drop('salary', axis=1)
 X_train, X_test, y_train, y_test = train_test_split(X, y, test_size=0.4, random_state=52)
 train = pd.concat([X_train,y_train], axis=1)
 test = pd.concat([X_test,y_test], axis=1)
