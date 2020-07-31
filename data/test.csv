@@ -1,88 +1,88 @@
-name,age,country,batting_side,throwing_hand,height,weight,years,games_started,position,games_played,plate_appearances,at_bat,runs,hits,doubles,triples,home_runs,runs_batted_in,stolen_bases,caught_stealing,bases_on_balls,strikeouts,hit_by_pitch,sacrafice_hits,sacrafice_flies,intentional_bases_on_balls,salary
-Pedro Severino,25,Dominican Republic,R,R,73,220,5,83,Catcher,96,341,305,37,76,13,0,13,44,3,1,29,73,4,1,2,0,563500.0
-Tim Beckham,29,United States,R,R,73,205,6,81,Short Stop,88,328,304,39,72,21,1,15,47,1,3,21,102,3,0,0,0,1750000.0
-Buster Posey,32,United States,R,R,73,213,11,101,Catcher,114,445,405,43,104,24,0,7,38,0,0,34,71,4,1,1,1,22177778.0
-Austin Wynns,28,United States,R,R,74,215,2,20,Catcher,28,74,70,8,15,1,0,1,5,0,0,3,14,0,1,0,0,558000.0
-Jonathan Schoop,27,Curacao,R,R,73,225,7,113,Second Base,121,464,433,61,111,23,1,23,59,1,1,20,116,10,0,1,1,7500000.0
-Mac Williamson,28,United States,R,R,76,237,5,14,Left Field,25,87,77,10,14,0,0,3,10,0,1,9,26,1,0,0,0,567500.0
-Fernando Tatis Jr.,20,Dominican Republic,R,R,75,217,1,82,Short Stop,84,372,334,61,106,13,6,22,53,16,6,30,110,5,0,3,1,555000.0
-Chad Wallach,27,United States,R,R,74,246,3,12,Catcher,19,54,48,4,12,3,0,1,3,0,0,6,12,0,0,0,0,555000.0
-Jesus Sucre,31,Venezuela,R,R,72,200,7,17,Catcher,20,67,62,3,13,2,0,0,3,0,0,4,13,1,0,0,0,850000.0
-Garrett Cooper,28,United States,R,R,77,235,3,99,First Base,107,421,381,52,107,16,1,15,50,0,0,33,110,5,0,2,0,555000.0
-Curt Casali,30,United States,R,R,74,220,6,57,Catcher,84,236,207,24,52,9,0,8,32,0,0,25,59,1,0,3,1,950000.0
-Hunter Dozier,27,United States,R,R,76,220,3,138,Third Base,139,586,523,75,146,29,10,26,84,2,2,55,148,3,0,5,2,567225.0
-Trevor Story,26,United States,R,R,74,213,4,144,Short Stop,145,656,588,111,173,38,5,35,85,23,8,58,174,7,0,3,0,5000000.0
-DJ LeMahieu,30,United States,R,R,76,220,9,142,Second Base,145,655,602,109,197,33,2,26,102,5,2,46,90,2,1,4,0,12000000.0
-Whit Merrifield,30,United States,R,R,73,195,4,161,Second Base,162,735,681,105,206,41,10,16,74,20,10,45,126,5,0,4,5,1000000.0
-Kevin Pillar,30,United States,R,R,72,200,7,150,Center Field,5,17,16,1,1,0,0,0,1,0,0,0,3,0,0,1,0,5800000.0
-Kevan Smith,31,United States,R,R,76,230,4,51,Catcher,67,211,191,21,48,12,0,5,20,2,0,16,37,3,0,1,0,572500.0
-Rhys Hoskins,26,United States,R,R,76,245,3,159,First Base,160,705,570,86,129,33,5,29,85,2,2,116,173,11,0,6,6,575000.0
-Justin Turner,34,United States,R,R,71,202,11,122,Third Base,135,549,479,80,139,24,0,27,67,2,0,51,88,14,0,5,1,19000000.0
-Justin Upton,31,United States,R,R,73,215,13,60,Left Field,63,256,219,34,47,8,0,12,40,1,1,32,78,0,0,5,0,18000000.0
-Ronald Acuna Jr.,21,Venezuela,R,R,72,205,2,154,Center Field,156,715,626,127,175,22,2,41,101,37,9,76,188,9,0,1,4,560000.0
-Miguel Rojas,30,Venezuela,R,R,72,188,6,123,Short Stop,132,526,483,52,137,29,1,5,46,9,5,32,62,5,1,5,2,3155000.0
-Martin Maldonado,32,Puerto Rico,R,R,72,230,9,70,Catcher,27,98,84,20,17,4,0,6,10,0,0,13,26,1,0,0,0,2500000.0
-Zack Cozart,33,United States,R,R,72,204,9,27,Third Base,38,107,97,4,12,2,0,0,7,0,0,5,16,2,0,3,0,12666667.0
-Matt Chapman,26,United States,R,R,72,215,3,152,Third Base,156,670,583,102,145,36,3,36,91,1,1,73,147,11,0,3,0,580000.0
-Mookie Betts,26,United States,R,R,69,180,6,148,Right Field,150,706,597,135,176,40,5,29,80,16,3,97,101,3,0,9,6,20000000.0
-Carson Kelly,24,United States,R,R,74,210,4,85,Catcher,111,365,314,46,77,19,0,18,47,0,0,48,79,2,0,1,10,560000.0
-Yandy Díaz,27,Cuba,R,R,74,215,3,78,Third Base,79,347,307,53,82,20,1,14,38,2,2,35,61,1,0,4,1,558400.0
-Mikie Mahtook,29,United States,R,R,74,220,5,6,Center Field,9,25,23,0,0,0,0,0,0,0,0,2,11,0,0,0,0,574500.0
-Tyler White,28,United States,R,R,71,238,4,59,First Base,12,26,22,2,1,0,0,0,2,0,0,4,4,0,0,0,0,582900.0
-Jonathan Lucroy,33,United States,R,R,72,200,10,64,Catcher,27,60,53,2,10,2,0,1,6,0,0,6,12,1,0,0,1,3350000.0
-Lourdes Gurriel Jr.,25,Cuba,R,R,76,215,2,79,Left Field,84,343,314,52,87,19,2,20,50,6,4,20,86,5,1,3,0,1928571.0
-Ian Desmond,33,United States,R,R,75,217,11,106,Center Field,140,482,443,64,113,31,4,20,65,3,3,34,119,2,1,2,1,15000000.0
-Kyle Higashioka,29,United States,R,R,73,202,3,14,Catcher,18,57,56,8,12,5,0,3,11,0,0,0,26,0,0,1,0,562900.0
-Manny Pina,32,Venezuela,R,R,72,222,6,38,Catcher,76,179,158,10,36,8,0,7,25,0,0,16,50,4,0,1,1,1600000.0
-Scott Kingery,25,United States,R,R,70,180,2,115,Center Field,126,500,458,64,118,34,4,19,55,15,4,34,147,5,1,2,1,1500000.0
-Mitch Garver,28,United States,R,R,73,220,3,76,Catcher,93,359,311,70,85,16,1,31,67,0,0,41,87,5,0,2,0,575000.0
-David Fletcher,25,United States,R,R,69,185,2,145,Third Base,154,653,596,83,173,30,4,6,49,8,3,55,64,0,1,1,2,561500.0
-Randal Grichuk,27,United States,R,R,74,216,6,148,Right Field,151,628,586,75,136,29,5,31,80,2,1,35,163,5,0,2,0,5000000.0
-Ryan Braun,35,United States,R,R,74,205,13,113,Left Field,144,508,459,70,131,31,2,22,75,11,1,34,105,8,0,3,1,19000000.0
-Adam Jones,33,United States,R,R,74,215,14,118,Right Field,137,528,485,66,126,25,1,16,67,2,1,31,101,8,0,3,2,3000000.0
-Austin Romine,30,United States,R,R,73,216,8,62,Catcher,72,240,228,29,64,12,0,8,35,1,1,10,50,0,1,1,0,1800000.0
-Kevin Plawecki,28,United States,R,R,74,208,5,46,Catcher,59,174,158,13,35,10,0,3,17,0,1,12,31,3,0,1,0,1137000.0
-James McCann,29,United States,R,R,75,220,6,113,Catcher,118,476,439,62,120,26,1,18,60,4,1,30,137,6,1,0,1,2500000.0
-Tim Anderson,26,United States,R,R,73,185,4,122,Short Stop,123,518,498,81,167,32,0,18,56,17,5,15,109,3,0,2,0,1400000.0
-Stephen Piscotty,28,United States,R,R,76,211,5,92,Right Field,93,393,357,46,89,17,1,13,44,2,0,29,84,3,1,3,0,7333333.0
-Jung Ho Kang,32,"Korea, Republic of",R,R,72,210,4,39,Third Base,65,185,172,15,29,7,1,10,24,0,0,11,60,1,0,1,0,3000000.0
-AJ Pollock,31,United States,R,R,73,210,8,77,Center Field,86,342,308,49,82,15,1,15,47,5,1,23,74,7,0,4,1,4000000.0
-Victor Robles,22,Dominican Republic,R,R,72,205,3,147,Center Field,155,617,546,86,139,33,3,17,65,28,9,35,140,25,6,5,3,557800.0
-Tyler O'Neill,24,Canada,R,R,71,200,2,30,Left Field,60,151,141,18,37,6,0,5,16,1,0,10,53,0,0,0,0,564000.0
-Nicholas Castellanos,27,United States,R,R,76,203,7,100,Right Field,51,225,212,43,68,21,0,16,36,0,1,10,47,2,0,1,0,9950000.0
-Danny Jansen,24,United States,R,R,74,225,2,98,Catcher,107,384,347,41,72,12,1,13,43,0,1,31,79,4,1,1,1,558700.0
-Tyler White,28,United States,R,R,71,238,4,59,First Base,71,253,218,16,49,14,0,3,21,0,0,32,74,0,0,3,0,582900.0
-Jose Pirela,29,Venezuela,R,R,72,220,6,1,Left Field,2,5,5,0,0,0,0,0,0,0,0,0,3,0,0,0,0,575100.0
-Tyler Austin,27,United States,R,R,74,220,4,28,First Base,17,27,20,5,4,2,0,1,4,1,0,6,7,0,0,1,1,568600.0
-Brian Dozier,32,United States,R,R,71,200,8,114,Second Base,135,482,416,54,99,20,0,20,50,3,4,61,105,4,0,1,2,9000000.0
-Michael A. Taylor,28,United States,R,R,76,215,6,19,Center Field,53,97,88,10,22,7,0,1,3,6,0,7,34,0,2,0,0,3250000.0
-Chris Iannetta,36,United States,R,R,72,230,14,38,Catcher,52,164,144,20,32,10,0,6,21,0,0,18,54,1,0,1,3,4150000.0
-Mark Reynolds,35,United States,R,R,74,220,13,30,First Base,78,162,135,13,23,7,0,4,20,2,0,22,57,2,0,3,0,1000000.0
-Harrison Bader,25,United States,R,R,72,210,3,95,Center Field,128,406,347,54,71,14,3,12,39,11,3,46,117,10,1,2,4,578300.0
-Yasiel Puig,28,Cuba,R,R,74,240,7,95,Right Field,49,207,182,25,54,15,1,2,23,5,2,21,44,3,0,1,0,9700000.0
-Franmil Reyes,23,Dominican Republic,R,R,77,265,2,85,Designated Hitter,51,194,173,26,41,10,0,10,35,0,0,18,63,0,0,3,0,570500.0
-Yasiel Puig,28,Cuba,R,R,74,240,7,95,Right Field,100,404,373,51,94,15,1,22,61,14,5,23,89,5,0,3,1,9700000.0
-Nick Ahmed,29,United States,R,R,74,200,6,155,Short Stop,158,625,556,79,141,33,6,19,82,8,2,52,113,4,1,12,2,3663000.0
-Joey Rickard,28,United States,R,L,72,192,4,33,Left Field,26,54,50,4,14,2,0,1,4,1,0,4,17,0,0,0,0,570000.0
-Jeff Mathis,36,United States,R,R,72,205,15,76,Catcher,86,244,228,17,36,9,0,2,12,1,0,15,87,0,0,1,1,3250000.0
-Jonathan Lucroy,33,United States,R,R,72,200,10,64,Catcher,74,268,240,28,58,8,1,7,30,0,0,21,39,4,0,3,0,3350000.0
-Mitch Haniger,28,United States,R,R,74,199,4,62,Right Field,63,283,246,46,54,13,1,15,32,4,0,30,81,5,0,2,1,590100.0
-Yasmany Tomás,28,Cuba,R,R,74,260,4,1,Designated Hitter,4,6,6,0,0,0,0,0,0,0,0,0,3,0,0,0,0,15500000.0
-Matt Duffy,28,United States,R,R,74,190,5,41,Third Base,46,169,147,12,37,8,0,1,12,0,1,19,29,2,0,1,0,2675000.0
-Rene Rivera,35,Puerto Rico,R,R,70,215,11,6,Catcher,9,20,17,2,4,0,0,1,3,0,0,3,4,0,0,0,0,100000.0
-Mike Zunino,28,United States,R,R,74,235,7,78,Catcher,90,289,266,30,44,10,1,9,32,0,0,20,98,3,0,0,0,4412000.0
-Troy Tulowitzki,34,United States,R,R,75,205,13,4,Short Stop,5,13,11,1,2,1,0,1,1,0,0,2,4,0,0,0,0,20000000.0
-Jose Altuve,29,Venezuela,R,R,66,166,9,121,Second Base,124,548,500,89,149,27,3,31,74,6,5,41,82,3,1,3,0,9500000.0
-Nick Hundley,35,United States,R,R,72,203,12,23,Catcher,31,73,70,5,14,3,1,2,5,0,1,2,18,1,0,0,0,1250000.0
-Yuli Gurriel,35,Cuba,R,R,72,215,4,143,First Base,144,612,564,85,168,40,2,31,104,5,3,37,65,5,0,6,2,10400000.0
-Addison Russell,25,United States,R,R,72,200,5,55,Second Base,82,241,215,25,51,4,1,9,23,2,0,20,58,3,1,2,2,3400000.0
-JaCoby Jones,27,United States,R,R,74,201,4,83,Center Field,88,333,298,39,70,19,3,11,26,7,2,27,94,6,1,1,2,567100.0
-Hanley Ramirez,35,Dominican Republic,R,R,74,235,15,14,Designated Hitter,16,57,49,4,9,1,0,2,8,0,0,8,17,0,0,0,0,100000.0
-Mac Williamson,28,United States,R,R,76,237,5,14,Left Field,15,57,51,3,6,1,0,1,7,2,0,5,18,1,0,0,0,567500.0
-José Abreu,32,Cuba,R,R,75,250,6,159,First Base,159,693,634,85,180,38,1,33,123,2,2,36,152,13,0,10,4,16000000.0
-Eugenio Suarez,27,Venezuela,R,R,71,213,6,152,Third Base,159,662,575,87,156,22,2,49,103,3,2,70,189,11,0,6,4,7285714.0
-Grayson Greiner,26,United States,R,R,78,239,2,57,Catcher,58,224,208,18,42,5,1,5,19,0,0,13,70,1,1,1,0,558600.0
-Martin Maldonado,32,Puerto Rico,R,R,72,230,9,70,Catcher,74,263,238,26,54,15,0,6,17,0,0,17,55,5,2,1,0,2500000.0
-Elias Diaz,28,Venezuela,R,R,73,223,5,75,Catcher,101,332,303,31,73,14,0,2,28,0,0,23,56,2,1,3,0,578500.0
-Jorge Alfaro,26,Colombia,R,R,75,230,4,113,Catcher,130,465,431,44,113,14,1,18,57,4,4,22,154,10,0,2,1,570000.0
-Pete Alonso,24,United States,R,R,75,245,1,153,First Base,161,693,597,103,155,30,2,53,120,1,0,72,183,21,0,3,6,555000.0
+name,age,country,batting_side,throwing_hand,height,weight,years,games_started,position,runs,stolen_bases,caught_stealing,bases_on_balls,strikeouts,total_bases,hit_by_pitch,sacrafice_hits,sacrafice_flies,intentional_bases_on_balls,salary
+Pedro Severino,25,Dominican Republic,R,R,73,220,5,83,Catcher,37,3,1,29,73,128,4,1,2,0,563500.0
+Tim Beckham,29,United States,R,R,73,205,6,81,Short Stop,39,1,3,21,102,140,3,0,0,0,1750000.0
+Buster Posey,32,United States,R,R,73,213,11,101,Catcher,43,0,0,34,71,149,4,1,1,1,22177778.0
+Austin Wynns,28,United States,R,R,74,215,2,20,Catcher,8,0,0,3,14,19,0,1,0,0,558000.0
+Jonathan Schoop,27,Curacao,R,R,73,225,7,113,Second Base,61,1,1,20,116,205,10,0,1,1,7500000.0
+Mac Williamson,28,United States,R,R,76,237,5,14,Left Field,10,0,1,9,26,23,1,0,0,0,567500.0
+Fernando Tatis Jr.,20,Dominican Republic,R,R,75,217,1,82,Short Stop,61,16,6,30,110,197,5,0,3,1,555000.0
+Chad Wallach,27,United States,R,R,74,246,3,12,Catcher,4,0,0,6,12,18,0,0,0,0,555000.0
+Jesus Sucre,31,Venezuela,R,R,72,200,7,17,Catcher,3,0,0,4,13,15,1,0,0,0,850000.0
+Garrett Cooper,28,United States,R,R,77,235,3,99,First Base,52,0,0,33,110,170,5,0,2,0,555000.0
+Curt Casali,30,United States,R,R,74,220,6,57,Catcher,24,0,0,25,59,85,1,0,3,1,950000.0
+Hunter Dozier,27,United States,R,R,76,220,3,138,Third Base,75,2,2,55,148,273,3,0,5,2,567225.0
+Trevor Story,26,United States,R,R,74,213,4,144,Short Stop,111,23,8,58,174,326,7,0,3,0,5000000.0
+DJ LeMahieu,30,United States,R,R,76,220,9,142,Second Base,109,5,2,46,90,312,2,1,4,0,12000000.0
+Whit Merrifield,30,United States,R,R,73,195,4,161,Second Base,105,20,10,45,126,315,5,0,4,5,1000000.0
+Kevin Pillar,30,United States,R,R,72,200,7,150,Center Field,1,0,0,0,3,1,0,0,1,0,5800000.0
+Kevan Smith,31,United States,R,R,76,230,4,51,Catcher,21,2,0,16,37,75,3,0,1,0,572500.0
+Rhys Hoskins,26,United States,R,R,76,245,3,159,First Base,86,2,2,116,173,259,11,0,6,6,575000.0
+Justin Turner,34,United States,R,R,71,202,11,122,Third Base,80,2,0,51,88,244,14,0,5,1,19000000.0
+Justin Upton,31,United States,R,R,73,215,13,60,Left Field,34,1,1,32,78,91,0,0,5,0,18000000.0
+Ronald Acuna Jr.,21,Venezuela,R,R,72,205,2,154,Center Field,127,37,9,76,188,324,9,0,1,4,560000.0
+Miguel Rojas,30,Venezuela,R,R,72,188,6,123,Short Stop,52,9,5,32,62,183,5,1,5,2,3155000.0
+Martin Maldonado,32,Puerto Rico,R,R,72,230,9,70,Catcher,20,0,0,13,26,39,1,0,0,0,2500000.0
+Zack Cozart,33,United States,R,R,72,204,9,27,Third Base,4,0,0,5,16,14,2,0,3,0,12666667.0
+Matt Chapman,26,United States,R,R,72,215,3,152,Third Base,102,1,1,73,147,295,11,0,3,0,580000.0
+Mookie Betts,26,United States,R,R,69,180,6,148,Right Field,135,16,3,97,101,313,3,0,9,6,20000000.0
+Carson Kelly,24,United States,R,R,74,210,4,85,Catcher,46,0,0,48,79,150,2,0,1,10,560000.0
+Yandy Díaz,27,Cuba,R,R,74,215,3,78,Third Base,53,2,2,35,61,146,1,0,4,1,558400.0
+Mikie Mahtook,29,United States,R,R,74,220,5,6,Center Field,0,0,0,2,11,0,0,0,0,0,574500.0
+Tyler White,28,United States,R,R,71,238,4,59,First Base,2,0,0,4,4,1,0,0,0,0,582900.0
+Jonathan Lucroy,33,United States,R,R,72,200,10,64,Catcher,2,0,0,6,12,15,1,0,0,1,3350000.0
+Lourdes Gurriel Jr.,25,Cuba,R,R,76,215,2,79,Left Field,52,6,4,20,86,170,5,1,3,0,1928571.0
+Ian Desmond,33,United States,R,R,75,217,11,106,Center Field,64,3,3,34,119,212,2,1,2,1,15000000.0
+Kyle Higashioka,29,United States,R,R,73,202,3,14,Catcher,8,0,0,0,26,26,0,0,1,0,562900.0
+Manny Pina,32,Venezuela,R,R,72,222,6,38,Catcher,10,0,0,16,50,65,4,0,1,1,1600000.0
+Scott Kingery,25,United States,R,R,70,180,2,115,Center Field,64,15,4,34,147,217,5,1,2,1,1500000.0
+Mitch Garver,28,United States,R,R,73,220,3,76,Catcher,70,0,0,41,87,196,5,0,2,0,575000.0
+David Fletcher,25,United States,R,R,69,185,2,145,Third Base,83,8,3,55,64,229,0,1,1,2,561500.0
+Randal Grichuk,27,United States,R,R,74,216,6,148,Right Field,75,2,1,35,163,268,5,0,2,0,5000000.0
+Ryan Braun,35,United States,R,R,74,205,13,113,Left Field,70,11,1,34,105,232,8,0,3,1,19000000.0
+Adam Jones,33,United States,R,R,74,215,14,118,Right Field,66,2,1,31,101,201,8,0,3,2,3000000.0
+Austin Romine,30,United States,R,R,73,216,8,62,Catcher,29,1,1,10,50,100,0,1,1,0,1800000.0
+Kevin Plawecki,28,United States,R,R,74,208,5,46,Catcher,13,0,1,12,31,54,3,0,1,0,1137000.0
+James McCann,29,United States,R,R,75,220,6,113,Catcher,62,4,1,30,137,202,6,1,0,1,2500000.0
+Tim Anderson,26,United States,R,R,73,185,4,122,Short Stop,81,17,5,15,109,253,3,0,2,0,1400000.0
+Stephen Piscotty,28,United States,R,R,76,211,5,92,Right Field,46,2,0,29,84,147,3,1,3,0,7333333.0
+Jung Ho Kang,32,"Korea, Republic of",R,R,72,210,4,39,Third Base,15,0,0,11,60,68,1,0,1,0,3000000.0
+AJ Pollock,31,United States,R,R,73,210,8,77,Center Field,49,5,1,23,74,144,7,0,4,1,4000000.0
+Victor Robles,22,Dominican Republic,R,R,72,205,3,147,Center Field,86,28,9,35,140,229,25,6,5,3,557800.0
+Tyler O'Neill,24,Canada,R,R,71,200,2,30,Left Field,18,1,0,10,53,58,0,0,0,0,564000.0
+Nicholas Castellanos,27,United States,R,R,76,203,7,100,Right Field,43,0,1,10,47,137,2,0,1,0,9950000.0
+Danny Jansen,24,United States,R,R,74,225,2,98,Catcher,41,0,1,31,79,125,4,1,1,1,558700.0
+Tyler White,28,United States,R,R,71,238,4,59,First Base,16,0,0,32,74,72,0,0,3,0,582900.0
+Jose Pirela,29,Venezuela,R,R,72,220,6,1,Left Field,0,0,0,0,3,0,0,0,0,0,575100.0
+Tyler Austin,27,United States,R,R,74,220,4,28,First Base,5,1,0,6,7,9,0,0,1,1,568600.0
+Brian Dozier,32,United States,R,R,71,200,8,114,Second Base,54,3,4,61,105,179,4,0,1,2,9000000.0
+Michael A. Taylor,28,United States,R,R,76,215,6,19,Center Field,10,6,0,7,34,32,0,2,0,0,3250000.0
+Chris Iannetta,36,United States,R,R,72,230,14,38,Catcher,20,0,0,18,54,60,1,0,1,3,4150000.0
+Mark Reynolds,35,United States,R,R,74,220,13,30,First Base,13,2,0,22,57,42,2,0,3,0,1000000.0
+Harrison Bader,25,United States,R,R,72,210,3,95,Center Field,54,11,3,46,117,127,10,1,2,4,578300.0
+Yasiel Puig,28,Cuba,R,R,74,240,7,95,Right Field,25,5,2,21,44,77,3,0,1,0,9700000.0
+Franmil Reyes,23,Dominican Republic,R,R,77,265,2,85,Designated Hitter,26,0,0,18,63,81,0,0,3,0,570500.0
+Yasiel Puig,28,Cuba,R,R,74,240,7,95,Right Field,51,14,5,23,89,177,5,0,3,1,9700000.0
+Nick Ahmed,29,United States,R,R,74,200,6,155,Short Stop,79,8,2,52,113,243,4,1,12,2,3663000.0
+Joey Rickard,28,United States,R,L,72,192,4,33,Left Field,4,1,0,4,17,19,0,0,0,0,570000.0
+Jeff Mathis,36,United States,R,R,72,205,15,76,Catcher,17,1,0,15,87,51,0,0,1,1,3250000.0
+Jonathan Lucroy,33,United States,R,R,72,200,10,64,Catcher,28,0,0,21,39,89,4,0,3,0,3350000.0
+Mitch Haniger,28,United States,R,R,74,199,4,62,Right Field,46,4,0,30,81,114,5,0,2,1,590100.0
+Yasmany Tomás,28,Cuba,R,R,74,260,4,1,Designated Hitter,0,0,0,0,3,0,0,0,0,0,15500000.0
+Matt Duffy,28,United States,R,R,74,190,5,41,Third Base,12,0,1,19,29,48,2,0,1,0,2675000.0
+Rene Rivera,35,Puerto Rico,R,R,70,215,11,6,Catcher,2,0,0,3,4,7,0,0,0,0,100000.0
+Mike Zunino,28,United States,R,R,74,235,7,78,Catcher,30,0,0,20,98,83,3,0,0,0,4412000.0
+Troy Tulowitzki,34,United States,R,R,75,205,13,4,Short Stop,1,0,0,2,4,6,0,0,0,0,20000000.0
+Jose Altuve,29,Venezuela,R,R,66,166,9,121,Second Base,89,6,5,41,82,275,3,1,3,0,9500000.0
+Nick Hundley,35,United States,R,R,72,203,12,23,Catcher,5,0,1,2,18,25,1,0,0,0,1250000.0
+Yuli Gurriel,35,Cuba,R,R,72,215,4,143,First Base,85,5,3,37,65,305,5,0,6,2,10400000.0
+Addison Russell,25,United States,R,R,72,200,5,55,Second Base,25,2,0,20,58,84,3,1,2,2,3400000.0
+JaCoby Jones,27,United States,R,R,74,201,4,83,Center Field,39,7,2,27,94,128,6,1,1,2,567100.0
+Hanley Ramirez,35,Dominican Republic,R,R,74,235,15,14,Designated Hitter,4,0,0,8,17,16,0,0,0,0,100000.0
+Mac Williamson,28,United States,R,R,76,237,5,14,Left Field,3,2,0,5,18,10,1,0,0,0,567500.0
+José Abreu,32,Cuba,R,R,75,250,6,159,First Base,85,2,2,36,152,319,13,0,10,4,16000000.0
+Eugenio Suarez,27,Venezuela,R,R,71,213,6,152,Third Base,87,3,2,70,189,329,11,0,6,4,7285714.0
+Grayson Greiner,26,United States,R,R,78,239,2,57,Catcher,18,0,0,13,70,64,1,1,1,0,558600.0
+Martin Maldonado,32,Puerto Rico,R,R,72,230,9,70,Catcher,26,0,0,17,55,87,5,2,1,0,2500000.0
+Elias Diaz,28,Venezuela,R,R,73,223,5,75,Catcher,31,0,0,23,56,93,2,1,3,0,578500.0
+Jorge Alfaro,26,Colombia,R,R,75,230,4,113,Catcher,44,4,4,22,154,183,10,0,2,1,570000.0
+Pete Alonso,24,United States,R,R,75,245,1,153,First Base,103,1,0,72,183,348,21,0,3,6,555000.0

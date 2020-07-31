@@ -39,15 +39,13 @@ batting.drop_duplicates(inplace=True)
 
 
 
-batting.drop(['Rk','Age','BA','OBP','SLG','OPS','OPS+','TB','GDP',], axis=1, inplace=True)
+batting.drop(['Rk','G', 'PA', 'AB', 'Age','H','2B','3B','HR','BA','OBP','SLG','OPS','OPS+','GDP','RBI'], axis=1, inplace=True)
 
 
-new_col_names = {'Pos':'position', 'Name':'name', 'G':'games_played',
-                'PA':'plate_appearances', 'AB':'at_bat', 'R':'runs',
-                'H':'hits', '2B':'doubles', '3B':'triples', 'HR':'home_runs',
-                'RBI':'runs_batted_in', 'SB':'stolen_bases', 'CS':'caught_stealing',
-                 'BB':'bases_on_balls', 'SO':'strikeouts', 'HBP':'hit_by_pitch',
-                 'SH':'sacrafice_hits', 'SF':'sacrafice_flies', 'IBB':'intentional_bases_on_balls'}
+new_col_names = {'Pos':'position', 'Name':'name', 'R':'runs','TB':'total_bases',
+                'SB':'stolen_bases', 'CS':'caught_stealing','BB':'bases_on_balls', 
+                'SO':'strikeouts', 'HBP':'hit_by_pitch','SH':'sacrafice_hits', 
+                'SF':'sacrafice_flies', 'IBB':'intentional_bases_on_balls'}
 
 batting.rename(new_col_names, axis=1, inplace=True)
 
