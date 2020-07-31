@@ -1,12 +1,8 @@
 ## Overview
 
-The goal of this project is to predict the OPS for a particular baseball player in a given season. 
+The goal of this project is to predict the number of runs for a particular baseball player in a given season. 
 
-from [wikipedia](https://en.wikipedia.org/wiki/On-base_plus_slugging):
-
-"*On-base plus slugging (OPS) is a sabermetric baseball statistic calculated as the sum of a player's on-base percentage and slugging percentage.[1] The ability of a player both to get on base and to hit for power, two important offensive skills, are represented. An OPS of .900 or higher in Major League Baseball puts the player in the upper echelon of hitters. Typically, the league leader in OPS will score near, and sometimes above, the 1.000 mark.*" 
-
-Using different caracteristics from a player like age, height, weight, etc. And his previous year stats; like runs, plates appearances, among others.
+Using different caracteristics from a player like age, height, weight, etc. And other stats.
 
 The analysis only consider active batters.
 
@@ -20,9 +16,7 @@ The analysis only consider active batters.
 
 - ### Cleaning
 
-    The records with available OPS were the only considered for this project, any row missing this variable was removed. Columns were renamed for easier interpretation. Total and subtotals rows were removed, and also any duplicate record was deleted.
-    
-    For the current version of this analysis the only columns used are: age, batting_side, height, weight, first_year, games_played, plates_appearances, runs, stolen_bases, strike_outs, country and, of course, OPS.
+    The records with available runs were the only considered for this project, any row missing this variable was removed. Columns were renamed for easier interpretation. Total and subtotals rows were removed, and also any duplicate record was deleted.
     
     Both tables were merged using an inner join.
 
@@ -33,3 +27,5 @@ The analysis only consider active batters.
 The script used for this part is available in this repository.
 
 ## Exploratory Data Analysis
+
+In this step the data was explored to check for pattern, distributions and correlation between the variables. There seems to be high colinearity between the independent variables.
